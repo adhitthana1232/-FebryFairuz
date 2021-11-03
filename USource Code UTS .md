@@ -1,4 +1,5 @@
 # -FebryFairuz
+
 Source Code jawaban UTS
 package inputproduk;
 import java.util.*;
@@ -13,7 +14,6 @@ public static void main(String[] args) {
 		int Stok;
 		String Deskripsi;
 		String berat;
-	
 			while(true){
 				System.out.println("Silahkan Pilih : Masukan Produk / Lihat Produk(M/L)??? ");
 				inputlihat = input.next().charAt(0);
@@ -30,10 +30,7 @@ public static void main(String[] args) {
 				berat = input.nextLine();
 				System.out.println("Masukan Stok :");
 				Stok= input.nextInt();
-				
-				
 				System.out.println("============================================= ");	
-				
 				System.out.println("Nama : " + inproduk);	
 				System.out.println("Harga Rp : " + Harga);	
 				System.out.println("Stok : "+ Stok );	
@@ -49,8 +46,7 @@ public static void main(String[] args) {
 				}
 				System.out.println("============================================= ");	
 				System.out.println("Pilih lagi (y/n)??? ");
-					pilih = input.next().charAt(0);;
-					
+				pilih = input.next().charAt(0);;
 		}
 	}
 }	
