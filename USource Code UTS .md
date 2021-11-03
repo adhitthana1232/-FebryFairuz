@@ -1,10 +1,10 @@
 # -FebryFairuz
 
-Source Code jawaban UTS
-package inputproduk;
-import java.util.*;
-public class inproduk {
-public static void main(String[] args) {
+	Source Code jawaban UTS
+	package inputproduk;
+	import java.util.*;
+	public class inproduk {
+	public static void main(String[] args) {
 		char pilih;
 		char inputlihat;
 		Scanner input = new Scanner(System.in);
@@ -49,5 +49,5 @@ public static void main(String[] args) {
 				pilih = input.next().charAt(0);;
 		}
 	}
-}	
+	}	
 
